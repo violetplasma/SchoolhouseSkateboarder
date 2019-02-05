@@ -17,6 +17,7 @@
 		63A558E721D5B95B00E166F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A558E521D5B95B00E166F2 /* LaunchScreen.storyboard */; };
 		63A558F221D5B95B00E166F2 /* SchoolhouseSkateboarderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A558F121D5B95B00E166F2 /* SchoolhouseSkateboarderTests.swift */; };
 		63A558FD21D5B95B00E166F2 /* SchoolhouseSkateboarderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A558FC21D5B95B00E166F2 /* SchoolhouseSkateboarderUITests.swift */; };
+		63A5590B21D5DDB100E166F2 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5590A21D5DDB100E166F2 /* Skater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		63A558F821D5B95B00E166F2 /* SchoolhouseSkateboarderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolhouseSkateboarderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A558FC21D5B95B00E166F2 /* SchoolhouseSkateboarderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolhouseSkateboarderUITests.swift; sourceTree = "<group>"; };
 		63A558FE21D5B95B00E166F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A5590A21D5DDB100E166F2 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		63A558CA21D5B95900E166F2 = {
 			isa = PBXGroup;
 			children = (
+				63A5590A21D5DDB100E166F2 /* Skater.swift */,
 				63A558D521D5B95900E166F2 /* SchoolhouseSkateboarder */,
 				63A558F021D5B95B00E166F2 /* SchoolhouseSkateboarderTests */,
 				63A558FB21D5B95B00E166F2 /* SchoolhouseSkateboarderUITests */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A558DD21D5B95900E166F2 /* GameScene.swift in Sources */,
+				63A5590B21D5DDB100E166F2 /* Skater.swift in Sources */,
 				63A558DF21D5B95900E166F2 /* GameViewController.swift in Sources */,
 				63A558D721D5B95900E166F2 /* AppDelegate.swift in Sources */,
 			);
@@ -453,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Christian.SchoolhouseSkateboarder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Christian.SchoolhouseSkateboarder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
